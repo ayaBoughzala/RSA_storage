@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="949916fa-6ebe-47bf-8ce8-5abb95871817" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aD3CzorMLF0iQ8lbHjyfOEoYzP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ayabo\Documents\SEM2\PFA\project_sample_1\src\components" />
+      <recent name="C:\Users\ayabo\Documents\SEM2\PFA\project_sample_1\migrations" />
+      <recent name="C:\Users\ayabo\Documents\SEM2\PFA\project_sample_1\src\contracts" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="949916fa-6ebe-47bf-8ce8-5abb95871817" name="Default Changelist" comment="" />
+      <created>1586256220700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586256220700</updated>
+      <workItem from="1586256235364" duration="449000" />
+      <workItem from="1586259697450" duration="12924000" />
+      <workItem from="1586518441167" duration="3869000" />
+      <workItem from="1586522592576" duration="7302000" />
+      <workItem from="1586687350777" duration="11815000" />
+      <workItem from="1586811840438" duration="4116000" />
+      <workItem from="1586944626784" duration="48000" />
+      <workItem from="1587289280196" duration="1933000" />
+      <workItem from="1590950230802" duration="6349000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Inspections" timestamp="1586520430994">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1586520430994" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586522289048">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586522289048" />
+    <state x="430" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586522019288">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="430" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1586522019288" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1586522403887">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586522403887" />
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1586275197896">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586275197896" />
+    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1586275197895">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586275197895" />
+    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1586275197895">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586275197895" />
+    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1586275197896">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586275197896" />
+    <state x="263" y="107" key="IDE.errors.dialog" timestamp="1586275403323">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="107" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1586275403323" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1586522411759">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586522411759" />
+  </component>
+</project>
