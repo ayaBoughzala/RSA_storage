@@ -135,7 +135,7 @@ import Storage from '../abis/Storage.json'
 
 const ipfsClient = require('ipfs-http-client')
 const ipfs = ipfsClient({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' }) 
-
+var FileSaver = require('file-saver');
 class App extends Component {
 
   async componentWillMount() {
@@ -178,6 +178,7 @@ class App extends Component {
 
     this.state = {
       fileHash: '',
+	  fileName: '' ,
       contract: null,
       web3: null,
       buffer: null,
@@ -188,10 +189,18 @@ class App extends Component {
   captureFile = (event) => {
     event.preventDefault()
     const file = event.target.files[0]
+	const name = event.target.files[0].name 
+    const lastDot = name.lastIndexOf('.');
+
+    const fileName = name.substring(0, lastDot);
+    const ext = name.substring(lastDot + 1);
+
+    this.setState({ fileName: fileName })
     const reader = new window.FileReader()
     reader.readAsArrayBuffer(file)
     reader.onloadend = () => {
       this.setState({ buffer: Buffer(reader.result) })
+
       console.log('buffer', this.state.buffer)
     }
   }
@@ -209,6 +218,19 @@ class App extends Component {
        })
     })
   }
+httpGet(theUrl)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+    xmlHttp.send( null );
+    return xmlHttp.responseText;
+}
+ downloading =(event) =>{
+ event.preventDefault()
+FileSaver.saveAs(new Blob([this.httpGet('https://ipfs.infura.io/ipfs/'+this.state.fileHash)]),this.state.fileName);
+
+
+	 }
 
   render() {
     return (
@@ -236,7 +258,8 @@ class App extends Component {
                 </form>
 				
 				<h2> your files </h2>
-				<img src={`https://ipfs.infura.io/ipfs/${this.state.fileHash}`}  alt=''/>
+				
+				<ul><li>{this.state.fileName}</li><button onClick={this.downloading}>download</button></ul>
               </div>
             </main>
           </div>
